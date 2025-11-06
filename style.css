@@ -15,7 +15,36 @@ body{
 
 }
 
+/*Menu*/
 
+.container{
+    background-color: rgb(0, 0, 52);
+    width: auto;
+    display: flex;
+    min-height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu{
+    gap: 30px;
+    padding-left: 350px;
+    
+
+ 
+}
+
+.menu li{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+
+}
 
 
 
