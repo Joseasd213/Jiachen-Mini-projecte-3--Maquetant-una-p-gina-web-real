@@ -47,6 +47,25 @@ body{
 }
 
 
+/*Posicionamientos*/
+
+.centrar{
+    justify-content: space-around
+
+}
+
+.comprimir{
+    justify-content: space-around; /*Distrubuye elementos alrededor*/
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.item-center{
+    align-items: center;
+    padding-right: 300px;
+
+}
 
 
 
