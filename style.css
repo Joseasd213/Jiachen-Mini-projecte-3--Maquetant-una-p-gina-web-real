@@ -7,7 +7,13 @@ body{
     }
 
 
+/*Imagenes*/
 
+img{
+    height: 20px; /*o la altura que desees*/
+    width: 30px;
+    object-fit: contain; /*evita deformaciones*/
+}
 /*Aplicante*/
 
 .flex{
@@ -27,7 +33,7 @@ body{
 }
 
 .menu{
-    gap: 30px;
+    gap: 20px;
     padding-left: 350px;
     
 
