@@ -6,14 +6,6 @@ body{
     padding: 0;
     }
 
-
-/*Imagenes*/
-
-img{
-    height: 20px; /*o la altura que desees*/
-    width: 30px;
-    object-fit: contain; /*evita deformaciones*/
-}
 /*Aplicante*/
 
 .flex{
@@ -45,15 +37,30 @@ img{
 
 }
 
-.menu a{
-    text-decoration: none;
-    color: white;
+.menu img{
+    height: 20px; /*o la altura que desees*/
+    width: 30px;
+    object-fit: contain; /*evita deformaciones*/
+}
 
+.item-center{
+    align-items: center;
+    padding-right: 300px;
+
+}
+
+
+.comprimir{
+    justify-content: space-around; /*Distrubuye elementos alrededor*/
+    padding-left: 300px;
+    padding-right: 300px;
+    
 }
 
 /*Header2*/
 
 .container2{
+    border: solid;
     background-color: rgb(255, 255, 255);
     width: auto;
     height: 100px;
@@ -65,7 +72,8 @@ img{
 
 .menu2{
     gap: 40px;
-    padding-left: 350px;
+    padding-left: 100px;
+    align-items: center;
 }
 
 .menu2 li{
@@ -80,39 +88,28 @@ img{
 
 }
 
+.comprimir2{
+    justify-content: space-around; /*Distrubuye elementos alrededor*/
+    padding-left: 320px;
+    padding-right: 350px;
+    
+}
 
+.item-center2{
+    align-items: center;
+    padding-right: 100px;
 
+}
 
+.item-center2 img{
+    width: 200px;
 
-
-
-
-
-
+}
 
 /*Posicionamientos*/
 
 .centrar{
     justify-content: space-around
-
-}
-
-.comprimir{
-    justify-content: space-around; /*Distrubuye elementos alrededor*/
-    padding-left: 300px;
-    padding-right: 300px;
-    
-}
-
-.item-center{
-    align-items: center;
-    padding-right: 300px;
-
-}
-
-.item-center2{
-    align-items: center;
-    padding-right: 300px;
 
 }
 
@@ -122,8 +119,6 @@ p{
     color: white;
     
 }
-
-
 
 
 
