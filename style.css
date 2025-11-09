@@ -6,6 +6,13 @@ body{
     padding: 0;
     }
 
+body div{
+    justify-content: space-around; /*Distrubuye elementos alrededor*/
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    }
+
 /*Aplicante*/
 
 .flex{
@@ -23,18 +30,15 @@ body{
     display: flex;
     min-height: 100%;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .menu{
     gap: 10px;
-    padding-left: 350px;
 }
 
 .menu li{
     list-style: none;
     text-decoration: none;
-
 }
 
 .menu img{
@@ -45,16 +49,12 @@ body{
 
 .item-center{
     align-items: center;
-    padding-right: 300px;
 
 }
 
 
 .comprimir{
-    justify-content: space-around; /*Distrubuye elementos alrededor*/
-    padding-left: 300px;
-    padding-right: 300px;
-    
+
 }
 
 /*Header2*/
@@ -72,7 +72,6 @@ body{
 
 .menu2{
     gap: 40px;
-    padding-left: 100px;
     align-items: center;
 }
 
@@ -89,25 +88,27 @@ body{
 }
 
 .comprimir2{
-    justify-content: space-around; /*Distrubuye elementos alrededor*/
-    padding-left: 320px;
-    padding-right: 350px;
-    
+
 }
 
 .item-center2{
     align-items: center;
-    padding-right: 100px;
+
 
 }
 
 .item-center2 img{
     width: 200px;
+    align-items: center;
 
 }
 
 /*Posicionamientos*/
 
+.between{
+    justify-content: space-between;
+
+}
 .centrar{
     justify-content: space-around
 
