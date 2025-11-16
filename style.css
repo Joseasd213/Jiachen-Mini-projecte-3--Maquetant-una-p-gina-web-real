@@ -60,7 +60,6 @@ body div{
 /*Header2*/
 
 .container2{
-    border: solid;
     background-color: rgb(255, 255, 255);
     width: auto;
     height: 100px;
@@ -121,6 +120,12 @@ body div{
 
 }
 
+.centro{
+    padding-bottom: 200px;
+    padding-top: 200px;
+    justify-content: center;
+}
+
 /*Palabras*/
 
 p{
@@ -130,21 +135,22 @@ p{
 
 /*imagen-charles*/
 
-section{
-    background-image: url(imagenes/imagen/background-image.png)
+section {
+    background-image: url(imagenes/imagen/charles.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
-section img{
-    width: 200px
-}
+
 
 /*contenido de la pagina*/
 
 .container-charles{
     border: solid;
-    width: 200px;
+    width: 800px;
     height: 300px;
-    justify-content: center;
+    
 }
 
 
