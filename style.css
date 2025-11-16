@@ -146,13 +146,14 @@ section {
 
 /*contenido de la pagina*/
 
-.container-charles{
+.container-charles {
     border: solid;
-    width: 800px;
+    width: 1100px;
     height: 400px;
-    
-}
+    text-align: left;;
+    flex-direction: column;
 
+}
 
 
 
