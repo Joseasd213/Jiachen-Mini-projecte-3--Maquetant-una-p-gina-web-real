@@ -7,11 +7,14 @@ body{
     }
 
 body div{
-    justify-content: space-around; /*Distrubuye elementos alrededor*/
-    padding-left: 200px;
+    padding-left: 160px;
     padding-right: 200px;
-    
     }
+
+
+body .menu2{
+    padding-right: 400px;
+}
 
 /*Aplicante*/
 
@@ -30,15 +33,18 @@ body div{
     display: flex;
     min-height: 100%;
     flex-wrap: wrap;
+
 }
 
 .menu{
     gap: 10px;
+    padding-left: 680px;
 }
 
 .menu li{
+    text-align: left;
     list-style: none;
-    text-decoration: none;
+    
 }
 
 .menu img{
@@ -47,15 +53,6 @@ body div{
     object-fit: contain; /*evita deformaciones*/
 }
 
-.item-center{
-    align-items: center;
-
-}
-
-
-.comprimir{
-
-}
 
 /*Header2*/
 
@@ -65,13 +62,13 @@ body div{
     height: 100px;
     display: flex;
     min-height: 100%;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .menu2{
-    gap: 40px;
+    gap: 30px;
     align-items: center;
+    padding-left:  60px
 }
 
 .menu2 img{
@@ -93,15 +90,6 @@ body div{
 
 }
 
-.comprimir2{
-
-}
-
-.item-center2{
-    align-items: center;
-
-
-}
 
 .item-center2 img{
     width: 200px;
@@ -133,6 +121,15 @@ p{
     
 }
 
+.menu2 h1{
+    font-size: 17px;
+
+}
+
+.menu2 h3{
+    font-size: 15px;
+}
+
 /*imagen-charles*/
 
 section {
@@ -140,6 +137,7 @@ section {
     background-size: 2000px;
     background-repeat: no-repeat;
     background-position: center; 
+    
 }
 
 
@@ -148,7 +146,7 @@ section {
 
 .container-charles {
     border: solid;
-    width: 1100px;
+    width: 1250px;
     height: 400px;
     text-align: left;;
     flex-direction: column;
